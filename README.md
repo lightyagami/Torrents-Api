@@ -123,3 +123,8 @@ https://torrenter-api.herokuapp.com/api/nyaasi/jujutsu kaisen/2
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ---
+
+---
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Flightyagami%2FTorrents-Api%2Ftree%2Fmaster&referralCode=WJv4bN)
+
+---
