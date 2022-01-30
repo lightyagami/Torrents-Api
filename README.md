@@ -1,7 +1,14 @@
 # Torrents Api ✨
 
-> API for scraping torrents from 1337x, Piratebay, Eztv, Nyaasi, Torlock, YTS , Torrent Galaxy , Rarbg and Ettv
+> API for scraping torrents from 1337x, Piratebay, Eztv, Nyaasi, Torlock, YTS, Torrent Galaxy, Rarbg, Zooqle, KickAss, Bitsearch, Glodls, MagnetDL, LimeTorrent, TorrentFunk, TorrentProject and Ettv
+
 ---
+## A better version Available Here 
+
+## > [Torrent-Api-py](https://github.com/Ryuk-me/Torrent-Api-py)
+
+---
+
 # How to install
 
 ```sh
@@ -9,10 +16,14 @@
 # Clone the repo
 $ git clone https://github.com/Ryuk-me/Torrents-Api
 
+# Install Depedencies
+$ npm install
+
 # Start the server
 $ npm start
 
 ```
+
 ---
 
 # How it works
@@ -21,23 +32,31 @@ $ npm start
 $ /api/{website name}/{query}/{page(optional)}
 
 ```
+
 ---
 
 ## Keywords
 
-Website | Keyword | Url | Example
------------- | ------------- | ------------- | -------------
-1337x | 1337x | https://1337xx.to | [/api/1337x/avengers](https://torrents--api.herokuapp.com/api/1337x/avengers)
-Yts   | yts | https://yts.mx | [/api/yts/avengers](https://torrents--api.herokuapp.com/api/yts/avengers)
-Eztv  | eztv | https://eztv.re | [/api/eztv/avengers](https://torrents--api.herokuapp.com/api/eztv/avengers)
-Torrent Galaxy | tgx | https://torrentgalaxy.to | [/api/tgx/avengers](https://torrents--api.herokuapp.com/api/tgx/avengers)
-Torlock | torlock | https://www.torlock.com | [/api/torlock/avengers](https://torrents--api.herokuapp.com/api/torlock/avengers)
-PirateBay | piratebay | https://thehiddenbay.com | [/api/piratebay/avengers](https://torrents--api.herokuapp.com/api/piratebay/avengers)
-Nyaa.si | nyaasi | https://nyaa.si | [/api/nyaa/umaru](https://torrents--api.herokuapp.com/api/nyaa/umaru)
-Rarbg | rarbg  | https://rargb.to | [/api/rarbg/avengers](https://torrents--api.herokuapp.com/api/rargb/avengers)
-Ettv | ettv  | https://www.ettvcentral.com | [/api/ettv/avengers](https://torrents--api.herokuapp.com/api/ettv/avengers)
-all | all (it will retrieve torrent from every site) | | [/api/all/avengers](https://torrents--api.herokuapp.com/api/all/avengers)
-
+| Website        | Keyword                                        | Url                               | Example                                                                                         |
+| -------------- | ---------------------------------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------- |
+| 1337x          | 1337x                                          | https://1337xx.to                 | [/api/1337x/avengers](https://torrents-api.ryukme.repl.co/api/1337x/avengers)                   |
+| Yts            | yts                                            | https://yts.mx                    | [/api/yts/avengers](https://torrents-api.ryukme.repl.co/api/yts/avengers)                       |
+| Eztv           | eztv                                           | https://eztv.re                   | [/api/eztv/avengers](https://torrents-api.ryukme.repl.co/api/eztv/avengers)                     |
+| Torrent Galaxy | tgx                                            | https://torrentgalaxy.to          | [/api/tgx/avengers](https://torrents-api.ryukme.repl.co/api/tgx/avengers)                       |
+| Torlock        | torlock                                        | https://www.torlock.com           | [/api/torlock/avengers](https://torrents-api.ryukme.repl.co/api/torlock/avengers)               |
+| PirateBay      | piratebay                                      | https://thehiddenbay.com          | [/api/piratebay/avengers](https://torrents-api.ryukme.repl.co/api/piratebay/avengers)           |
+| Nyaa.si        | nyaasi                                         | https://nyaa.si                   | [/api/nyaasi/umaru](https://torrents-api.ryukme.repl.co/api/nyaasi/umaru)                       |
+| Rarbg          | rarbg                                          | https://rargb.to                  | [/api/rarbg/avengers](https://torrents-api.ryukme.repl.co/api/rarbg/avengers)                   |
+| Ettv           | ettv                                           | https://www.ettvcentral.com       | [/api/ettv/avengers](https://torrents-api.ryukme.repl.co/api/ettv/avengers)                     |
+| Zooqle         | zooqle                                         | https://zooqle.com                | [/api/zooqle/avengers](https://torrents-api.ryukme.repl.co/api/zooqle/avengers)                 |
+| KickAss        | kickass                                        | https://kickasstorrents.to        | [/api/kickass/avengers](https://torrents-api.ryukme.repl.co/api/kickass/avengers)               |
+| Bitsearch      | bitsearch                                      | https://bitsearch.to              | [/api/bitsearch/avengers](https://torrents-api.ryukme.repl.co/api/bitsearch/avengers)           |
+| Glodls         | glodls                                         | https://glodls.to/home.php        | [/api/glodls/avengers](https://torrents-api.ryukme.repl.co/api/glodls/avengers)                 |
+| MagnetDL       | magnetdl                                       | https://www.magnetdl.com          | [/api/magnetdl/avengers](https://torrents-api.ryukme.repl.co/api/magnetdl/avengers)             |
+| LimeTorrent    | limetorrent                                    | https://www.limetorrents.pro/home | [/api/limetorrent/avengers](https://torrents-api.ryukme.repl.co/api/limetorrent/avengers)       |
+| TorrentFunk    | torrentfunk                                    | https://www.torrentfunk.com       | [/api/torrentfunk/avengers](https://torrents-api.ryukme.repl.co/api/torrentfunk/avengers)       |
+| TorrentProject | torrentproject                                 | https://torrentproject2.com       | [/api/torrentproject/avengers](https://torrents-api.ryukme.repl.co/api/torrentproject/avengers) |
+| all            | all (it will retrieve torrent from every site) |                                   | [/api/all/avengers](https://torrents-api.ryukme.repl.co/api/all/avengers)                       |
 
 ### Example
 
@@ -65,13 +84,16 @@ $ /api/1337x/avengers
   }
 ]
 ```
+
 ---
+
 ```
 $ /api/tgx/avengers/1
 ```
-```
+
+```json
 [
-  
+  {
     "Poster": "https://img.picturegalaxy.org/data/cover/h/W/hWOmQgIu5E.jpg",
     "Category": "Movies : HD",
     "Name": "Avengers.Endgame.2019.Open.Matte.Upscaled.BDRip.2160p.Eng.TrueHD.DD5.1.gerald99",
@@ -84,14 +106,16 @@ $ /api/tgx/avengers/1
     "Leechers": "7",
     "DateUploaded": "10/04/21 10:46"
   }
- 
+
  ]
 ```
+
 ---
 
 ```
 $ /api/nyaasi/jujutsu kaisen/2
 ```
+
 ```json
 [
   {
@@ -108,17 +132,22 @@ $ /api/nyaasi/jujutsu kaisen/2
   }
 ]
 ```
+
 ---
+
 ## Want to Try api ?
 
 ```
-https://torrenter-api.herokuapp.com/api/{website}/{query}/{page(optional)}
+https://torrents-api.ryukme.repl.co/api/{website}/{query}/{page(optional)}
 ```
+
 ```
-https://torrenter-api.herokuapp.com/api/nyaasi/jujutsu kaisen/2
+https://torrents-api.ryukme.repl.co/api/nyaasi/jujutsu kaisen/2
 ```
+
 ---
-#### You can fork the repo and deploy on VPS or deploy it on Heroku :)  
+
+#### You can fork the repo and deploy on VPS or deploy it on Heroku :)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
