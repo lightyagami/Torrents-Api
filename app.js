@@ -27,7 +27,7 @@ app.use('/api/:website/:query/:page?', (req, res, next) => {
     let website = (req.params.website).toLowerCase();
     let query = req.params.query;
     let page = req.params.page;
-
+    console.log({website : website ,query : query ,page :page});
     if (website === '1337x') {
         if (page > 50) {
             return res.json({
@@ -369,6 +369,6 @@ app.use('/api/:website/:query/:page?', (req, res, next) => {
 app.use('/', (req, res) => {
     res.send('<h1>Welcome to 1337x, NyaaSi, YTS, PirateBay, Torlock, EzTvio, TorrentGalaxy, Rarbg, Zooqle, KickAss, Bitsearch, Glodls, MagnetDL, Limetorrent, TorrentFunk, TorrentProject and Ettv Central Unoffical API</h1>');
 });
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8080;
 console.log('Listening on PORT : ', PORT);
 app.listen(PORT);
